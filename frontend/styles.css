@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: #fdf2f8; /* soft pink background */
+  color: #4c1d95; /* deep purple text */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1rem; 
+}
+  
+.card {
+  background: #fbcfe8; /* light pink card */
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  background: #ec4899; /* pink button */
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #db2777;
+}
+
+input {
+  width: 100%;
+  max-width: 220px;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #f9a8d4;
+  background: #fff;
+  color: #4c1d95;
+}
+
+.ok {
+  color: #16a34a;
+}
+
+.err {
+  color: #dc2626;
+}
